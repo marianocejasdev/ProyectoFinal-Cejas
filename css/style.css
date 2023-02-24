@@ -45,8 +45,12 @@ i {
 }
 
 @media only screen and (max-width: 600px) {
-    .buscador input {
 
+    .buscador {
+        padding: .5rem .8rem;
+    }
+
+    .buscador input {
         font-size: .8rem;
     }
 }
