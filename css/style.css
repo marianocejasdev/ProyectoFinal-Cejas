@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+body {
+    background-color: #121212;
+    padding-block: 5rem;
+}
+
+.categoria-nombre {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-block: 3rem;
+}
+
+i {
+    color: #F9C521;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    border: 2px solid #F9C521 !important;
+    border-radius: 2rem;
+    background-color: none;
+    padding: .5rem 1rem;
+}
+
+.buscador input {
+    color-scheme: dark;
+    background-color: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+
+}
+
+.buscador button {
+    background: transparent;
+    border: none;
+}
+
+.relative {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cantidad-carrito {
+    position: absolute;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: #F9C521;
+    color: #121212;
+    font-weight: 600;
+    border-radius: 2rem;
+}
+
+/* end of ESTILOS GENERALES */
+
+/* PRODUCTO */
+
+.producto {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.producto i {
+    font-size: 2rem;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+    z-index: 1;
+    transition: all .3s ease;
+}
+
+.producto i:hover {
+    color: #f99b21;
+}
+
+.producto-img {
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 10px rgba(255, 122, 0, 0.8));
+    transition: all .3s ease;
+    margin-block: 1rem;
+}
+
+.producto-img:hover {
+    scale: 1.1;
+}
+
+.producto-nombre {
+    font-size: 1.2rem;
+}
+
+.producto-precio {
+    font-size: 1.1rem;
+}
+
+/* end of PRODUCTO */
+
+/* CARRITO */
+
+.offcanvas {
+    border-left: 5px solid #F9C521 !important;
+    background-color: #121212 !important;
+    width: 500px !important;
+}
+
+.offcanvas-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-bottom: 3px solid #F9C521;
+}
+
+.offcanvas-body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1rem;
+
+}
+
+.container-carrito {
+    overflow-y: scroll;
+}
+
+.producto-carrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0px;
+    gap: 1rem;
+    border-bottom: 1px solid #F9C521;
+}
+
+.producto-carrito-cantidad {
+    height: 1rem;
+    width: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9C521;
+    color: #121212;
+    font-weight: 600;
+    border-radius: 100%;
+}
+
+.producto-carrito-img {
+    max-width: 100%;
+    height: 90px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 122, 0, 0.8));
+    transition: all .3s ease;
+}
+
+.producto-carrito-nombre {
+    font-size: 1rem;
+    max-width: 120px;
+}
+
+.eliminar-carrito {
+    cursor: pointer;
+}
+
+.btn-outline-primary {
+    border: 2px solid #F9C521 !important;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    color: #F9C521;
+    padding: 1rem 3rem;
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+    color: #121212 !important;
+    background-color: #F9C521 !important;
+}
+
+.btn-primary {
+    background-color: #F9C521 !important;
+    border: 2px solid #121212 !important;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-weight: 600;
+    color: #121212 !important;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #f99b21 !important;
+}
+
+/* end of CARRITO */
+
+.swal2-html-container {
+    color: #FFF;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.error i {
+    font-size: 10rem;
+}
+
+.error p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-block: 3rem;
+}
+
+/* Scrollbar */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #121212;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #F9C521;
+    border-radius: 10px;
+}

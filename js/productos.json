@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "nombre": "Grand Triple Bacon",
+        "precio": 890,
+        "imagen": "..img/burger-1.svg"
+    },
+    {
+        "id": "2",
+        "nombre": "Grand Crispy Onion",
+        "precio": 990,
+        "imagen": "..img/burger-2.svg"
+    },
+    {
+        "id": "3",
+        "nombre": "Crispy Chicken",
+        "precio": 1090,
+        "imagen": "..img/burger-3.svg"
+    },
+    {
+        "id": "4",
+        "nombre": "Guacamole Cheese Burger",
+        "precio": 890,
+        "imagen": "..img/burger-4.svg"
+    },
+    {
+        "id": "5",
+        "nombre": "Veggie Burger",
+        "precio": 990,
+        "imagen": "..img/burger-5.svg"
+    },
+    {
+        "id": "6",
+        "nombre": "Stacker Triple",
+        "precio": 1090,
+        "imagen": "..img/burger-6.svg"
+    },
+    {
+        "id": "7",
+        "nombre": "Heart Attack Burger",
+        "precio": 890,
+        "imagen": "..img/burger-7.svg"
+    },
+    {
+        "id": "8",
+        "nombre": "BBQ Bacon",
+        "precio": 990,
+        "imagen": "..img/burger-8.svg"
+    },
+    {
+        "id": "9",
+        "nombre": "Papas Fritas",
+        "precio": 690,
+        "imagen": "..img/papas-fritas.svg"
+    },
+    {
+        "id": "10",
+        "nombre": "Coca-Cola",
+        "precio": 590,
+        "imagen": "..img/coca-cola.svg"
+    },
+    {
+        "id": "11",
+        "nombre": "Fanta",
+        "precio": 590,
+        "imagen": "..img/fanta.svg"
+    },
+    {
+        "id": "12",
+        "nombre": "Sprite",
+        "precio": 590,
+        "imagen": "..img/sprite.svg"
+    }
+]
