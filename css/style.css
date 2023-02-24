@@ -39,11 +39,16 @@ i {
 .buscador input {
     color-scheme: dark;
     background-color: transparent;
-    flex: 1;
     border: none;
     outline: none;
     font-size: 1rem;
+}
 
+@media only screen and (max-width: 600px) {
+    .buscador input {
+
+        font-size: .8rem;
+    }
 }
 
 .buscador button {
