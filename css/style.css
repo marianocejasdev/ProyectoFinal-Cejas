@@ -32,7 +32,7 @@ i {
     align-items: center;
     border: 2px solid #F9C521 !important;
     border-radius: 2rem;
-    background-color: none;
+    background-color: transparent;
     padding: .5rem 1rem;
 }
 
